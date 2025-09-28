@@ -27,19 +27,19 @@ ii.	Finding null values:<br>
 &nbsp;&nsp;&nsp;The dataset was perfectly clean and did not contain any null values.<br>
 
 iii.	Looking for outliers:<br>
-&nsp;&nsp;&nsp; The dataset did contain outliers as on some days the CTR is very high even more than 16 a day. However, we will keep the outliers as they will play an important role in analysis.<br>
+&nsp&;&nsp&;&nsp&; The dataset did contain outliers as on some days the CTR is very high even more than 16 a day. However, we will keep the outliers as they will play an important role in analysis.<br>
 
 iv.	Hypothesis Testing:<br>
-&nsp;&nsp;&nsp;Testing was performed to know whether the Advertising on Facebook will result in a greater number of conversions compared to advertising on AdWords or not.<br>
+&nsp&;&nsp&;&nsp&;Testing was performed to know whether the Advertising on Facebook will result in a greater number of conversions compared to advertising on AdWords or not.<br>
 
 v.	Model creation:<br>
-&nsp;&nsp;&nsp;Linear model was created and fit for the facebook_ad_conversion and facebook_ad_clicks which gave an accuracy of 82%.<br>
+&nsp&;&nsp&;&nsp&;Linear model was created and fit for the facebook_ad_conversion and facebook_ad_clicks which gave an accuracy of 82%.<br>
 
 vi.	Monthly, Weekly and Yearly Conversions of facebook ad:<br>
-&nsp&nsp;&nsp;;Since we knew facebook ads performed better than AdWords ads. Hence, detailed analysis was performed on AdWords ads to understand the weekly, montly and yearly analysis.<br>
+&nsp&;&nsp&;&nsp&;Since we knew facebook ads performed better than AdWords ads. Hence, detailed analysis was performed on AdWords ads to understand the weekly, montly and yearly analysis.<br>
 
 vii.	Monthly Cost Per Conversion:<br>
-&nsp;&nsp;&nsp;This metrics was also calculated for facebook ads to understand which month has the highest cost per conversion.<br>
+&nsp&;&nsp&;&nsp&;This metrics was also calculated for facebook ads to understand which month has the highest cost per conversion.<br>
 
 
 # Analysis:<br>
