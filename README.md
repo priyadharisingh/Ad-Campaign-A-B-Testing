@@ -22,22 +22,28 @@ The dataset comprises a collection of data comprising the performance of two sep
 
 # Process:
 i.	The dataset and libraries were imported.<br>
+
 ii.	Finding null values:<br>
-The dataset was perfectly clean and did not contain any null values.
+The dataset was perfectly clean and did not contain any null values.<br>
+
 iii.	Looking for outliers:<br>
-The dataset did contain outliers as on some days the CTR is very high even more than 16 a day. However, we will keep the outliers as they will play an important role in analysis.
+The dataset did contain outliers as on some days the CTR is very high even more than 16 a day. However, we will keep the outliers as they will play an important role in analysis.<br>
+
 iv.	Hypothesis Testing:<br>
-Testing was performed to know whether the Advertising on Facebook will result in a greater number of conversions compared to advertising on AdWords or not.
+Testing was performed to know whether the Advertising on Facebook will result in a greater number of conversions compared to advertising on AdWords or not.<br>
+
 v.	Model creation:<br>
-Linear model was created and fit for the facebook_ad_conversion and facebook_ad_clicks which gave an accuracy of 82%.
+Linear model was created and fit for the facebook_ad_conversion and facebook_ad_clicks which gave an accuracy of 82%.<br>
+
 vi.	Monthly, Weekly and Yearly Conversions of facebook ad:<br>
-Since we knew facebook ads performed better than AdWords ads. Hence, detailed analysis was performed on AdWords ads to understand the weekly, montly and yearly analysis.
+Since we knew facebook ads performed better than AdWords ads. Hence, detailed analysis was performed on AdWords ads to understand the weekly, montly and yearly analysis.<br>
+
 vii.	Monthly Cost Per Conversion:<br>
-This metrics was also calculated for facebook ads to understand which month has the highest cost per conversion.
+This metrics was also calculated for facebook ads to understand which month has the highest cost per conversion.<br>
 
 
-# Analysis:
-•	Facebook ads are performing better than the AdWords ads. 
-•	More resources should be allocated in the Facebook Ad campaign as it is providing more conversions. 
-•	Research should be carried out to understand why AdWords ads are not showing more conversions.
-•	Further understanding should be developed on the kind of ad created in the month of August as it has the highest CTR and more such ads should be created
+# Analysis:<br>
+•	Facebook ads are performing better than the AdWords ads. <br>
+•	More resources should be allocated in the Facebook Ad campaign as it is providing more conversions. <br>
+•	Research should be carried out to understand why AdWords ads are not showing more conversions.<br>
+•	Further understanding should be developed on the kind of ad created in the month of August as it has the highest CTR and more such ads should be created.
