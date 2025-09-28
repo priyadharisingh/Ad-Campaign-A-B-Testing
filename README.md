@@ -11,31 +11,32 @@ To understand which platform is more effective in terms of conversions, clicks, 
 The dataset comprises a collection of data comprising the performance of two separate ad campaigns conducted throughout the year 2019. Specifically, the data covers a Facebook Ad campaign and an AdWords ad campaign. For the year 2021, 2022, 2023, 2024, there is a corresponding row in the dataset, resulting in a total of 1000 days of campaign data for analysis. The dataset includes various performance metrics for each ad campaign, providing insights into their effectiveness and efficiency over time.
 
 # Key Features:
-•	Date: The date corresponding to each row of campaign data, ranging from January 1st,2019, to December 31st,2019.
-•	Ad Views: The number of times the ad was viewed.
-•	Ad Clicks: The number clicks received on the ad.
-•	Ad Conversion: The number of conversions resulting from the ad.
-•	Cost per Ad: the cost associated with running the Facebook ad campaign.
-•	Click Through Rate (CTR): The ratio of clicks to views, indicating the effectiveness of the ad in generating clicks.
-•	Conversion Rate: The ratio of conversions to views, reflecting the effectiveness of the ad in driving desired actions.
-•	Cost per Click (CPC): The average cost incurred per click on the ad.
+•	Date: The date corresponding to each row of campaign data, ranging from January 1st,2019, to December 31st,2019. <br>
+•	Ad Views: The number of times the ad was viewed.<br>
+•	Ad Clicks: The number clicks received on the ad.<br>
+•	Ad Conversion: The number of conversions resulting from the ad.<br>
+•	Cost per Ad: the cost associated with running the Facebook ad campaign.<br>
+•	Click Through Rate (CTR): The ratio of clicks to views, indicating the effectiveness of the ad in generating clicks.<br>
+•	Conversion Rate: The ratio of conversions to views, reflecting the effectiveness of the ad in driving desired actions.<br>
+•	Cost per Click (CPC): The average cost incurred per click on the ad.<br>
+
 # Process:
-i.	The dataset and libraries were imported.
-ii.	Finding null values:
+i.	The dataset and libraries were imported.<br>
+ii.	Finding null values:<br>
 The dataset was perfectly clean and did not contain any null values.
-iii.	Looking for outliers:
+iii.	Looking for outliers:<br>
 The dataset did contain outliers as on some days the CTR is very high even more than 16 a day. However, we will keep the outliers as they will play an important role in analysis.
-iv.	Hypothesis Testing:
+iv.	Hypothesis Testing:<br>
 Testing was performed to know whether the Advertising on Facebook will result in a greater number of conversions compared to advertising on AdWords or not.
-v.	Model creation:
+v.	Model creation:<br>
 Linear model was created and fit for the facebook_ad_conversion and facebook_ad_clicks which gave an accuracy of 82%.
-vi.	Monthly, Weekly and Yearly Conversions of facebook ad:
+vi.	Monthly, Weekly and Yearly Conversions of facebook ad:<br>
 Since we knew facebook ads performed better than AdWords ads. Hence, detailed analysis was performed on AdWords ads to understand the weekly, montly and yearly analysis.
-vii.	Monthly Cost Per Conversion:
+vii.	Monthly Cost Per Conversion:<br>
 This metrics was also calculated for facebook ads to understand which month has the highest cost per conversion.
 
 
-# Final Verdict:
+# Analysis:
 •	Facebook ads are performing better than the AdWords ads. 
 •	More resources should be allocated in the Facebook Ad campaign as it is providing more conversions. 
 •	Research should be carried out to understand why AdWords ads are not showing more conversions.
